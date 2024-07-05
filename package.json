@@ -6,7 +6,7 @@
     "canvas": "v3.0.0-rc2"
   },
   "scripts": {
-    "build": "ori @copy src/site.ori, @clean @files/build",
-    "start": "ori @serve @watch src, =@debug site.ori"
+    "build": "ori @copy origami/site.ori, @clean @files/build",
+    "start": "ori @serve @watch origami, =@debug site.ori"
   }
 }

@@ -1,0 +1,18 @@
+// This file returns the set of posts, ready for templating
+
+// Load metadata from YAML, add blog post text
+@map(posts.yaml/, {
+  value: (fields, key) => {
+    ...fields
+    @text: blog(`${key}.md`)
+  }
+})
+
+// Convert blog posts to HTML
+→ @mapFn(@mdHtml)
+
+// Sort by date
+→ @sortFn({ sortKey: (post) => post/pubDate })
+
+// Reverse the order
+→ @reverse

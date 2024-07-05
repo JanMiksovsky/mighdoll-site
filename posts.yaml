@@ -1,0 +1,48 @@
+reactive-webgpu:
+  title: Reactive WebGPU
+  description: |
+    Fine grained reactivity (aka signals) libraries are useful for WebGPU.
+    Reactivity libraries offer hooks for lazy recalculation resource
+    reallocation cleanup caching and dependency tracking.
+  pubDate: 2023-04-07
+  heroImage: /blog-reactivity-webgpu.png
+
+typescript-tricks-combining-records:
+  title: TypeScript Tricks for Combining Records
+  description: |
+    Use fancy TypeScript type constructors to safely work with Records. Add
+    fields to Records using mapped types. Intersect Records using
+    contravariance. Recover Record types after intersection.
+  pubDate: 2024-06-21
+  updatedDate: 2024-07-02
+  heroImage: /blog-records-cropped.webp
+
+modern-typescript-intersection:
+  title: Modern Union To Intersection
+  description: |
+    Modern TypeScript enables us to build an improved type constructor to
+    convert union types to intersection types.
+  pubDate: 2024-07-03
+  heroImage: /blog-modern-intersection.jpg
+
+tagged-parser-combinators:
+  title: Tagged Parser Combiniators
+  description: |
+    A 'tag' feature for parser combinators makes extracting parsing results
+    easier and more maintainable.
+  pubDate: 2024-07-27
+  hide: true
+
+mapped-tuple-types:
+  title: Mapped Tuple Types
+  description: Map one TypeScript tuple type to another
+  pubDate: 2024-08-27
+  hide: true
+
+infer-type-parameters:
+  title: Infer Type Parameters Implicitly
+  description: |
+    Infer Type parameters in TypeScript without passing type parameters
+    explicitly
+  pubDate: 2024-09-27
+  hide: true

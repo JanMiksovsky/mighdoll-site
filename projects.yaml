@@ -1,0 +1,26 @@
+mini-parse:
+  tagLine: Small TypeScript parser combinators
+  description: |
+    A small TypeScript parser combinator library with an efficient regex based
+    lexer.
+  pubDate: 2024-02-08
+  repo: https://github.com/mighdoll/wgsl-linker/tree/main/packages/mini-parse
+  feature: 2
+
+wgsl-linker:
+  tagLine: import & export for WebGPU shaders
+  description: |
+    Enrich the WGSL shader language to support code modules via import and
+    export statements. Linking can be done entirely at runtime.
+  pubDate: 2023-11-29
+  repo: https://github.com/mighdoll/wgsl-linker/
+  feature: 1
+
+wgsl-link:
+  tagLine: Command line linking for WebGPU
+  description: |
+    A command line tool for preprocessing and linking multiple WGSL shader
+    modules into a single WGSL module.
+  pubDate: 2024-03-24
+  repo: https://github.com/mighdoll/wgsl-linker/tree/main/packages/cli
+  feature: 3
