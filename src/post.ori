@@ -1,3 +1,4 @@
+// Page for an individual blog post
 (post) => page.ori({
   ...post
   area: "blog"
@@ -20,6 +21,32 @@
     <meta property="twitter:image" content="${ `/open-graph/blog/${ post/slug }.png` }">
 
     <link rel="stylesheet" href="/styles/diagram.css">
+
+    <style>
+      .hero-image {
+        width: 100%;
+      }
+      .title {
+        font-size: 2.5rem;
+        margin-top: 1em;
+        line-height: 1em;
+      }
+      .titleBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .hero-image img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 12px;
+        box-shadow: var(--box-shadow);
+      }
+      .last-updated {
+        font-style: italic;
+      }
+    </style>
+
     <article>
       ${ @if(post/heroImage, =`
         <div class="hero-image">

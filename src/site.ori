@@ -1,16 +1,26 @@
 // Define the overall site structure
 {
-  // blog area maps post data to HTML using the post.ori template
-  blog = @map(postData.ori, { extension: "->html", value: post.ori })
+  blog = {
+    // Blog index page
+    index.html = blogIndex.ori(postData.ori)
 
-  // The home page lists all the posts
-  index.html = "Hello"
+    // Map post data to HTML using the post.ori template
+    ...@map(postData.ori, { extension: "->html", value: post.ori })
+  }
 
+  // Placeholder home page
+  index.html = index.ori/
+
+  // Generate Open Graph images for each post based on title and hero image
   open-graph = {
-    blog = @map(postData.ori, { extension: "->png", value: (post) => ogImage.js({
-      bgImage: @if(post/heroImage, =public/images(post/heroImage)/)
-      title: post/title
-    }) })
+    blog = @map(postData.ori, {
+      extension: "->png"
+      value: (post) => ogImage.js({
+        // If a hero image exists, load the image file from public/images
+        bgImage: @if(post/heroImage, =public/images(post/heroImage)/)
+        title: post/title
+      })
+    })
   }
 
   // Add all the static resources

@@ -1,0 +1,89 @@
+// Index page for the blog area
+(posts) => page.ori({
+  area: "blog"
+  title: siteInfo.yaml/title
+  @text: `
+    <style>
+      main {
+        margin-left: var(--side-margin);
+        margin-right: var(--side-margin);
+      }
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      ul li {
+        width: calc(50% - 1rem);
+      }
+      ul li * {
+        transition: 0.2s ease;
+      }
+      ul li:first-child {
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+      ul li:first-child img {
+        width: 100%;
+      }
+      ul li:first-child a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      ul li:first-child .title {
+        font-size: 2.4rem;
+        line-height: 1em;
+        margin-top: 0.4em;
+      }
+      ul li:first-child .subtitle {
+        line-height: 1.1em;
+      }
+      ul li img {
+        margin-bottom: 0.5rem;
+        border-radius: 12px;
+      }
+      ul li a {
+        display: block;
+      }
+      ul a:hover img {
+        box-shadow: var(--box-shadow);
+      }
+      @media (max-width: 720px) {
+        ul {
+          gap: 0.5em;
+        }
+        ul li {
+          width: 100%;
+          text-align: center;
+        }
+        ul li:first-child {
+          margin-bottom: 0;
+        }
+        ul li:first-child .title {
+          font-size: 1.5em;
+        }
+      }
+    </style>
+    <section>
+      <ul>
+        ${ @map(posts, (post) => @if(@not(post/hide), =`
+          <li>
+            <a href="${ post/slug }.html">
+              ${ @if(post/heroImage, =`
+                <img width="720" height="360" src="/images/${ post/heroImage }">
+              `) }
+              <div class="titleBox">
+                <div class="title">${ post/title }</div>
+                <div class="subTitle">${ prettyDate.js(post/pubDate) }</div>
+              </div>
+            </a>
+          </li>
+        `)) }
+      </ul>
+    </section>
+  `
+})

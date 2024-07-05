@@ -1,10 +1,10 @@
 // This file returns the set of posts, ready for templating
 
-// Load metadata from YAML.
-// Upgrade dates to real Date objects.
-// Add key as slug.
-// Add URL.
-// Add blog post text as `@text`.
+// The start of the pipeline is the data in posts.yaml. To this we add:
+// - real Date objects
+// - slug
+// - URL
+// - blog post markdown as `@text`.
 @map(posts.yaml/, {
   value: (fields, key) => {
     ...fields

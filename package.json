@@ -2,7 +2,7 @@
   "name": "mighdoll-site-origami",
   "type": "module",
   "dependencies": {
-    "@weborigami/origami": "0.0.59",
+    "@weborigami/origami": "https://gitpkg.vercel.app/WebOrigami/origami/origami?94727e7a",
     "canvas": "v3.0.0-rc2"
   },
   "scripts": {

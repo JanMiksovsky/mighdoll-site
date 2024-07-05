@@ -24,11 +24,13 @@ One slightly unusual — but completely reasonable — choice in the project is 
 
 ## OpenGraph images
 
-The Astro project uses the astro-og-canvas utility to turn post properties into a PNG image for use in social media tags. This feature would be useful in non-Astro projects, so it's too bad the code and API are so intertwined with Astro internals. The implementation also uses the proprietary `CanvasKit` wrapper around a standard `Canvas`, so anyone attempting to modify the code has to first learn `CanvasKit`.
+The Astro project uses the astro-og-canvas utility to turn post properties into a PNG image for use in social media tags. The astro-og-canvas feature would be useful in non-Astro projects, so it's too bad the code and API are so intertwined with Astro internals. The implementation also uses the proprietary `CanvasKit` wrapper around a standard `Canvas`; anyone attempting to modify the code has to first learn to use `CanvasKit`.
 
-It'd be better if this were just a pure function that takes a small dictionary of options and returns a PNG image. A rough cut at this is implemented in `ogImage.js`, which has nothing to do with Origami. Internally, this uses the general-purpose `canvas` package for an implementation of the `Canvas` API in Node. That package does have some non-standard features, but if you know the `Canvas` API, then you could fairly easily modify `ogImage.js` to fit your needs.
+It'd be better if this were just a pure function that takes a small dictionary of options and returns a PNG image. A rough cut at this is implemented in `ogImage.js`, which has nothing to do with Origami.
 
-For this proof of concept, `ogImage` only accepts PNG images. I converted the JPEG and WEBP images from the Astro project to PNGs.
+Internally, this uses the general-purpose `canvas` package for an implementation of the `Canvas` API in Node. That package does have some non-standard features, but if you know the `Canvas` API, you can modify `ogImage.js` to fit your needs.
+
+For this proof of concept, `ogImage.js` only accepts PNG images. I converted the JPEG and WEBP images from the Astro project to PNGs.
 
 ## Notes
 
@@ -36,3 +38,9 @@ For this proof of concept, `ogImage` only accepts PNG images. I converted the JP
 - The utility `prettyDate.js` is just a JavaScript function that can be invoked directly by the `post.ori` template.
 - Astro templates appear to use JSX. One side effect of this is that HTML tags like `link` tags show up as `<link/>` (with a trailing slash). The Origami templates just use regular HTML, where `link` tags are self-closing: `<link>`.
 - Astro does something with stylesheets that I can't understand, using `import` statements that somehow generate files like `_slug_.DvgHcWUj.css`. The Origami version just uses `link` tags.
+
+## Performance
+
+I can't yet do a real apples-to-apples comparison because the Origami build omits the Projects area and the use of code highlighting. But for what it's worth: on my machine an Astro build is about 12 seconds, the Origami build is about 2 seconds.
+
+Performance aside, Astro provides features that Origami does not, such as type validation of post schema via Zod and probably other features. Such features could probably be added.

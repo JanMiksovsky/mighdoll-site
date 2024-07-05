@@ -1,3 +1,4 @@
+// The footer for all pages
 `<footer>
   <span
     >&copy; ${ new:@js/Date()/getFullYear() } Mighdoll. &nbsp;All rights reserved.

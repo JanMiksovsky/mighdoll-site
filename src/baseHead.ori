@@ -1,22 +1,25 @@
+// The base <head> element for all pages
 (page) => `
-<!-- Global Metadata -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <head>
+    <!-- Global Metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
-<!-- Font preloads -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-  href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:wght@100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
-  rel="stylesheet">
+    <!-- Font preloads -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:wght@100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
+      rel="stylesheet">
 
-<!-- CSS -->
-<link rel="stylesheet" href="/styles/global.css">
-<link rel="stylesheet" href="/styles/titled.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/titled.css">
 
-<!-- Primary Meta Tags -->
-<title>${ page/title }</title>
-<meta name="title" content="${ page/title }">
-<meta name="description" content="${ page/description }">
+    <!-- Primary Meta Tags -->
+    <title>${ page/title }</title>
+    <meta name="title" content="${ page/title }">
+    <meta name="description" content="${ page/description }">
+  </head>
 `

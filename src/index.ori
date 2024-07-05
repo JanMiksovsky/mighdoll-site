@@ -1,0 +1,9 @@
+// Main home page
+page.ori({
+  area: "home"
+  @text: `
+    <p>
+      The only area that works right now is the <a href="blog">blog</a>.
+    </p>
+  `
+})
