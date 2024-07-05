@@ -1,0 +1,34 @@
+.title {
+  font-family: var(--serif-font);
+  color: var(--text-main);
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+
+.subTitle {
+  margin-bottom: 1rem;
+  font-family: var(--sans-font);
+  color: var(--text-subtitle);
+}
+
+.description {
+  font-family: var(--sans-font);
+}
+
+article {
+  font-family: var(--sans-font);
+  font-size: 1rem;
+  margin: 1rem 0 2rem 0;
+}
+
+a:hover .title {
+  text-decoration: underline dashed;
+  text-underline-offset: .15em;
+  text-decoration-thickness: 1px;
+  color: var(--accent);
+}
+
+a:hover .description {
+  color: var(--text-main); 
+}

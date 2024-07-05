@@ -1,0 +1,40 @@
+(page) => `<!DOCTYPE html>
+<html lang="en">
+  <head>
+    ${ baseHead.ori(page) }
+
+    <style>
+      .hero-image {
+        width: 100%;
+      }
+      .title {
+        font-size: 2.5rem;
+        margin-top: 1em;
+        line-height: 1em;
+      }
+      .titleBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .hero-image img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 12px;
+        box-shadow: var(--box-shadow);
+      }
+      .last-updated {
+        font-style: italic;
+      }
+    </style>
+  </head>
+
+  <body ${ @if(page/area, `data-area="${ page/area }"`) }>
+    ${ header.html }
+    <main>
+    ${ page/@text }
+    </main>
+    ${ footer.ori/ }
+  </body>
+</html>
+`

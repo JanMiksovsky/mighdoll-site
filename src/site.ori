@@ -1,0 +1,14 @@
+// Define the overall site structure
+{
+  // blog area maps post data to HTML using the post.ori template
+  blog = @map(postData.ori, { extension: "->html", value: post.ori })
+
+  // The home page lists all the posts
+  index.html = "Hello"
+
+  // Add all the static resources
+  ...public
+
+  // RSS feed
+  rss.xml = @rss(feed.ori)
+}

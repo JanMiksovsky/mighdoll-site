@@ -1,0 +1,92 @@
+.diagram {
+  font-family: var(--code-font);
+  font-size: 24px;
+  --arrow-color: #e3e3e3;
+
+  &.container {
+    border: solid 1.5px;
+    border-radius: 8px;
+    background-color: #f0f2f0;
+    width: max-content;
+    margin: 1rem 0 2rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    display: grid;
+    row-gap: 0px;
+    column-gap: 1rem;
+    grid-template-areas:
+      "lhs arrow rhs"
+      ".   desc  .";
+    justify-content: start;
+  }
+  & .type {
+    color: #267f99;
+  }
+  & .function {
+    color: #795e26;
+  }
+  & .string {
+    color: #a31515;
+  }
+  & .var {
+    color: #001080;
+  }
+  & .number {
+    color: #098658;
+  }
+  & .punctuation {
+    color: #000000;
+  }
+  & .line {
+    font-size: 0;
+    & * {
+      font-size: 24px;
+    }
+  }
+
+  &.arrow {
+    grid-area: arrow;
+    line-height: 0;
+    align-self: center;
+  }
+  &.lhs {
+    grid-area: lhs;
+    align-self: center;
+  }
+  &.rhs {
+    grid-area: rhs;
+    align-self: center;
+  }
+  &.desc {
+    margin-left: -2em;
+    margin-top: -0.5em;
+    grid-area: desc;
+    justify-self: center;
+  }
+}
+
+html[data-theme="dark"] {
+  & .diagram {
+    --arrow-color: #9b9b9b;
+    &.container {
+      background-color: #000;
+    }
+    & .type {
+      color: #4ec9b0;
+    }
+    & .function {
+      color: #dcdcaa;
+    }
+    & .string {
+      color: #ce9178;
+    }
+    & .var {
+      color: #9cdcfe;
+    }
+    & .number {
+      color: #b5cea8;
+    }
+    & .punctuation {
+      color: #d4d4d4;
+    }
+  }
+}

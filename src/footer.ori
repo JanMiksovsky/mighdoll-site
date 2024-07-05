@@ -1,0 +1,42 @@
+`<footer>
+  <span
+    >&copy; ${ new:@js/Date()/getFullYear() } Mighdoll. &nbsp;All rights reserved.
+  </span>
+
+  <span class="social-links">
+    <a href="https://techhub.social/@mighdoll" target="_blank"> Mastodon </a>
+    <a href="https://github.com/mighdoll" target="_blank"> GitHub </a>
+  </span>
+</footer>
+<style>
+  footer {
+    font-family: var(--sans-font);
+    margin-left: var(--side-margin);
+    margin-right: var(--side-margin);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: var(--footer-color);
+    text-align: center;
+    border-width: 1px 0 0 0;
+    border-color: var(--text-secondary);
+    border-style: dashed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+
+    .social-links {
+      justify-content: center;
+      gap: 1em;
+      display: flex;
+      & a {
+        text-decoration: none;
+        color: var(--footer-color);
+        &:hover {
+          color: var(--accent-hover);
+        }
+      }
+    }
+  }
+</style>
+`
