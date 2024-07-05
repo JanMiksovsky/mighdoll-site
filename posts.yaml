@@ -5,7 +5,7 @@ reactive-webgpu:
     Reactivity libraries offer hooks for lazy recalculation resource
     reallocation cleanup caching and dependency tracking.
   pubDate: 2023-04-07
-  heroImage: /blog-reactivity-webgpu.png
+  heroImage: blog-reactivity-webgpu.png
 
 typescript-tricks-combining-records:
   title: TypeScript Tricks for Combining Records
@@ -15,7 +15,7 @@ typescript-tricks-combining-records:
     contravariance. Recover Record types after intersection.
   pubDate: 2024-06-21
   updatedDate: 2024-07-02
-  heroImage: /blog-records-cropped.webp
+  heroImage: blog-records-cropped.png
 
 modern-typescript-intersection:
   title: Modern Union To Intersection
@@ -23,7 +23,7 @@ modern-typescript-intersection:
     Modern TypeScript enables us to build an improved type constructor to
     convert union types to intersection types.
   pubDate: 2024-07-03
-  heroImage: /blog-modern-intersection.jpg
+  heroImage: blog-modern-intersection.png
 
 tagged-parser-combinators:
   title: Tagged Parser Combiniators

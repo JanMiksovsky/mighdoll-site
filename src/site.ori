@@ -6,6 +6,13 @@
   // The home page lists all the posts
   index.html = "Hello"
 
+  open-graph = {
+    blog = @map(postData.ori, { extension: "->png", value: (post) => ogImage.js({
+      bgImage: @if(post/heroImage, =public/images(post/heroImage)/)
+      title: post/title
+    }) })
+  }
+
   // Add all the static resources
   ...public
 

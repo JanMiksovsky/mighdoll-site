@@ -1,0 +1,11 @@
+// This is used to test the `ogImage.js` code.
+// On the command line:
+//
+// ```
+// ori ogImage.js ogTest.ori/ > test.png
+// ```
+
+{
+  bgImage: public/blog-reactivity-webgpu.png/
+  title: "This is a test"
+}

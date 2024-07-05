@@ -15,25 +15,8 @@
 <link rel="stylesheet" href="/styles/global.css">
 <link rel="stylesheet" href="/styles/titled.css">
 
-<!-- Canonical URL -->
-<link rel="canonical" href="${ siteInfo.yaml/url }">
-
 <!-- Primary Meta Tags -->
 <title>${ page/title }</title>
 <meta name="title" content="${ page/title }">
 <meta name="description" content="${ page/description }">
-
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="${ page/url }">
-<meta property="og:title" content="${ page/title }">
-<meta property="og:description" content="${ page/description }">
-<!-- <meta property="og:image" content="${ ... }"> -->
-
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="${ page/url }">
-<meta property="twitter:title" content="${ page/title }">
-<meta property="twitter:description" content="${ page/description }">
-<!-- <meta property="twitter:image" content="${ ... }"> -->
 `

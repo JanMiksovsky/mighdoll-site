@@ -8,7 +8,7 @@
     title: post/title
     description: post/description
     date_published: post/pubDate
-    id: `${ siteInfo.yaml/url }/blog/${ slug }/`
-    url: `${ siteInfo.yaml/url }/blog/${ slug }/`
+    id: post/url
+    url: post/url
   }))
 }

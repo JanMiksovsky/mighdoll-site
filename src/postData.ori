@@ -1,10 +1,15 @@
 // This file returns the set of posts, ready for templating
 
-// Load metadata from YAML, upgrading dates to real Date objects.
-// Also add blog post text as `@text`.
+// Load metadata from YAML.
+// Upgrade dates to real Date objects.
+// Add key as slug.
+// Add URL.
+// Add blog post text as `@text`.
 @map(posts.yaml/, {
   value: (fields, key) => {
     ...fields
+    slug: key
+    url: `${ siteInfo.yaml/url }/blog/${ key }.html`
     pubDate: new:@js/Date(fields/pubDate)
     updatedDate: @if(fields/updatedDate, new:@js/Date(fields/updatedDate))
     @text: blog(`${key}.md`)
@@ -19,3 +24,6 @@
 
 // Reverse the order
 → @reverse
+
+// Make this into a plain JavaScript object so it can be used anywhere
+→ @plain

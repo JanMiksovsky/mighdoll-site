@@ -1,13 +1,29 @@
 (post) => page.ori({
   ...post
   area: "blog"
-  url: `blog/${ post/slug }`
   @text: `
+    <!-- Canonical URL -->
+    <link rel="canonical" href="${ post/url }">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="${ post/url }">
+    <meta property="og:title" content="${ post/title }">
+    <meta property="og:description" content="${ post/description }">
+    <meta property="og:image" content="${ `/open-graph/blog/${ post/slug }.png` }">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="${ post/url }">
+    <meta property="twitter:title" content="${ post/title }">
+    <meta property="twitter:description" content="${ post/description }">
+    <meta property="twitter:image" content="${ `/open-graph/blog/${ post/slug }.png` }">
+
     <link rel="stylesheet" href="/styles/diagram.css">
     <article>
       ${ @if(post/heroImage, =`
         <div class="hero-image">
-          <img width="1020" height="510" src="${ post/heroImage }">
+          <img width="1020" height="510" src="/images/${ post/heroImage }">
         </div>
       `) }
       <div class="titleBox">
