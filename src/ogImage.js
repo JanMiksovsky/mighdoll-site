@@ -14,7 +14,6 @@ export default async function ogImage(options) {
   const canvas = createCanvas(width, height);
   const ctx = canvas.getContext("2d");
 
-  // Assuming margin, padding, logoHeight, and isRtl are defined elsewhere
   const margin = {
     inlineStart: 20,
     inlineEnd: 20,
@@ -22,7 +21,7 @@ export default async function ogImage(options) {
     blockEnd: 20,
   };
   const padding = 10;
-  const logoHeight = 0; // Example value
+  const logoHeight = 0;
 
   // Fill with a black background
   ctx.fillStyle = "#000";
