@@ -10,7 +10,7 @@
 <title>g</title>
 <g id="node1" class="node">
 <title></title>
-<g id="a_node1"><a xlink:href=".">
+<g id="a_node1"><a xlink:href="https://mighdoll-site-origami.netlify.app/.">
 <ellipse fill="white" stroke="#666666" cx="5.5" cy="-782" rx="5.5" ry="5.5"/>
 </a>
 </g>
@@ -18,7 +18,7 @@
 <!-- blog -->
 <g id="node2" class="node">
 <title>blog</title>
-<g id="a_node2"><a xlink:href="blog">
+<g id="a_node2"><a xlink:href="https://mighdoll-site-origami.netlify.app/blog">
 <ellipse fill="white" stroke="#666666" cx="277.1" cy="-1568" rx="5.5" ry="5.5"/>
 </a>
 </g>
@@ -33,7 +33,7 @@
 <!-- index.html -->
 <g id="node10" class="node">
 <title>index.html</title>
-<g id="a_node10"><a xlink:href="index.html" xlink:title="&lt;!DOCTYPE html&gt;\l&lt;html lang=&quot;en&quot;&gt;\l \l &lt;h...\l">
+<g id="a_node10"><a xlink:href="https://mighdoll-site-origami.netlify.app/index.html" xlink:title="&lt;!DOCTYPE html&gt;\l&lt;html lang=&quot;en&quot;&gt;\l \l &lt;h...\l">
 <polygon fill="white" stroke="#b3b3b3" points="327.57,-1211 226.63,-1211 226.63,-1155 327.57,-1155 327.57,-1211"/>
 <text text-anchor="start" x="234.87" y="-1198" font-family="Helvetica,sans-Serif" font-size="10.00">&lt;!DOCTYPE html&gt;</text>
 <text text-anchor="start" x="234.87" y="-1186" font-family="Helvetica,sans-Serif" font-size="10.00">&lt;html lang=&quot;en&quot;&gt;</text>
@@ -52,7 +52,7 @@
 <!-- open&#45;graph -->
 <g id="node11" class="node">
 <title>open&#45;graph</title>
-<g id="a_node11"><a xlink:href="open-graph">
+<g id="a_node11"><a xlink:href="https://mighdoll-site-origami.netlify.app/open-graph">
 <ellipse fill="white" stroke="#666666" cx="277.1" cy="-1077" rx="5.5" ry="5.5"/>
 </a>
 </g>
@@ -67,7 +67,7 @@
 <!-- favicon.svg -->
 <g id="node19" class="node">
 <title>favicon.svg</title>
-<g id="a_node19"><a xlink:href="favicon.svg" xlink:title="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF&#45;8&quot; sta...\l">
+<g id="a_node19"><a xlink:href="https://mighdoll-site-origami.netlify.app/favicon.svg" xlink:title="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF&#45;8&quot; sta...\l">
 <polygon fill="white" stroke="#b3b3b3" points="384,-999 170.2,-999 170.2,-963 384,-963 384,-999"/>
 <text text-anchor="start" x="178.15" y="-978" font-family="Helvetica,sans-Serif" font-size="10.00">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF&#45;8&quot; sta...</text>
 </a>
@@ -83,7 +83,7 @@
 <!-- fonts -->
 <g id="node20" class="node">
 <title>fonts</title>
-<g id="a_node20"><a xlink:href="fonts">
+<g id="a_node20"><a xlink:href="https://mighdoll-site-origami.netlify.app/fonts">
 <ellipse fill="white" stroke="#666666" cx="277.1" cy="-885" rx="5.5" ry="5.5"/>
 </a>
 </g>
@@ -98,7 +98,7 @@
 <!-- images -->
 <g id="node24" class="node">
 <title>images</title>
-<g id="a_node24"><a xlink:href="images">
+<g id="a_node24"><a xlink:href="https://mighdoll-site-origami.netlify.app/images">
 <ellipse fill="white" stroke="#666666" cx="277.1" cy="-782" rx="5.5" ry="5.5"/>
 </a>
 </g>
@@ -113,7 +113,7 @@
 <!-- logo4.jpg -->
 <g id="node28" class="node">
 <title>logo4.jpg</title>
-<g id="a_node28"><a xlink:href="logo4.jpg" xlink:title="[binary data]">
+<g id="a_node28"><a xlink:href="https://mighdoll-site-origami.netlify.app/logo4.jpg" xlink:title="[binary data]">
 <polygon fill="white" stroke="#b3b3b3" points="312.64,-704 241.57,-704 241.57,-668 312.64,-668 312.64,-704"/>
 <text text-anchor="middle" x="277.1" y="-683" font-family="Helvetica,sans-Serif" font-size="10.00">[binary data]</text>
 </a>
@@ -129,7 +129,7 @@
 <!-- robots.txt -->
 <g id="node29" class="node">
 <title>robots.txt</title>
-<g id="a_node29"><a xlink:href="robots.txt" xlink:title="User&#45;agent: Applebot\lAllow: /\l\lUser&#45;agen...\l">
+<g id="a_node29"><a xlink:href="https://mighdoll-site-origami.netlify.app/robots.txt" xlink:title="User&#45;agent: Applebot\lAllow: /\l\lUser&#45;agen...\l">
 <polygon fill="white" stroke="#b3b3b3" points="332.11,-596 222.1,-596 222.1,-540 332.11,-540 332.11,-596"/>
 <text text-anchor="start" x="229.85" y="-583" font-family="Helvetica,sans-Serif" font-size="10.00">User&#45;agent: Applebot</text>
 <text text-anchor="start" x="229.85" y="-571" font-family="Helvetica,sans-Serif" font-size="10.00">Allow: /</text>
@@ -147,7 +147,7 @@
 <!-- styles -->
 <g id="node30" class="node">
 <title>styles</title>
-<g id="a_node30"><a xlink:href="styles">
+<g id="a_node30"><a xlink:href="https://mighdoll-site-origami.netlify.app/styles">
 <ellipse fill="white" stroke="#666666" cx="277.1" cy="-402" rx="5.5" ry="5.5"/>
 </a>
 </g>
@@ -162,7 +162,7 @@
 <!-- svg -->
 <g id="node34" class="node">
 <title>svg</title>
-<g id="a_node34"><a xlink:href="svg">
+<g id="a_node34"><a xlink:href="https://mighdoll-site-origami.netlify.app/svg">
 <ellipse fill="white" stroke="#666666" cx="277.1" cy="-195" rx="5.5" ry="5.5"/>
 </a>
 </g>
@@ -177,7 +177,7 @@
 <!-- rss.xml -->
 <g id="node37" class="node">
 <title>rss.xml</title>
-<g id="a_node37"><a xlink:href="rss.xml" xlink:title="&lt;?xml version=&quot;1.0&quot; ?&gt;\l&lt;rss version=&quot;2.0...\l">
+<g id="a_node37"><a xlink:href="https://mighdoll-site-origami.netlify.app/rss.xml" xlink:title="&lt;?xml version=&quot;1.0&quot; ?&gt;\l&lt;rss version=&quot;2.0...\l">
 <polygon fill="white" stroke="#b3b3b3" points="336.59,-117 217.61,-117 217.61,-81 336.59,-81 336.59,-117"/>
 <text text-anchor="start" x="225.61" y="-102" font-family="Helvetica,sans-Serif" font-size="10.00">&lt;?xml version=&quot;1.0&quot; ?&gt;</text>
 <text text-anchor="start" x="225.61" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">&lt;rss version=&quot;2.0...</text>
@@ -194,7 +194,7 @@
 <!-- blog/index.html -->
 <g id="node3" class="node">
 <title>blog/index.html</title>
-<g id="a_node3"><a xlink:href="blog/index.html" xlink:title="...&lt;title&gt;Mighdoll Blog&lt;/title&gt;\l &lt;meta n...\l">
+<g id="a_node3"><a xlink:href="https://mighdoll-site-origami.netlify.app/blog/index.html" xlink:title="...&lt;title&gt;Mighdoll Blog&lt;/title&gt;\l &lt;meta n...\l">
 <polygon fill="white" stroke="#b3b3b3" points="917.78,-1964 776.51,-1964 776.51,-1928 917.78,-1928 917.78,-1964"/>
 <text text-anchor="start" x="784.33" y="-1949" font-family="Helvetica,sans-Serif" font-size="10.00">...&lt;title&gt;Mighdoll Blog&lt;/title&gt;</text>
 <text text-anchor="start" x="784.33" y="-1937" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt;meta n...</text>
@@ -211,7 +211,7 @@
 <!-- blog/infer&#45;type&#45;parameters.html -->
 <g id="node4" class="node">
 <title>blog/infer&#45;type&#45;parameters.html</title>
-<g id="a_node4"><a xlink:href="blog/infer-type-parameters.html" xlink:title="...&lt;title&gt;Infer Type Parameters Implicitly&lt;...\l">
+<g id="a_node4"><a xlink:href="https://mighdoll-site-origami.netlify.app/blog/infer-type-parameters.html" xlink:title="...&lt;title&gt;Infer Type Parameters Implicitly&lt;...\l">
 <polygon fill="white" stroke="#b3b3b3" points="950.49,-1856 743.8,-1856 743.8,-1820 950.49,-1820 950.49,-1856"/>
 <text text-anchor="start" x="751.97" y="-1835" font-family="Helvetica,sans-Serif" font-size="10.00">...&lt;title&gt;Infer Type Parameters Implicitly&lt;...</text>
 </a>
@@ -227,7 +227,7 @@
 <!-- blog/mapped&#45;tuple&#45;types.html -->
 <g id="node5" class="node">
 <title>blog/mapped&#45;tuple&#45;types.html</title>
-<g id="a_node5"><a xlink:href="blog/mapped-tuple-types.html" xlink:title="...&lt;title&gt;Mapped Tuple Types&lt;/title&gt;\l &lt;m...\l">
+<g id="a_node5"><a xlink:href="https://mighdoll-site-origami.netlify.app/blog/mapped-tuple-types.html" xlink:title="...&lt;title&gt;Mapped Tuple Types&lt;/title&gt;\l &lt;m...\l">
 <polygon fill="white" stroke="#b3b3b3" points="934.68,-1748 759.61,-1748 759.61,-1712 934.68,-1712 934.68,-1748"/>
 <text text-anchor="start" x="767.38" y="-1733" font-family="Helvetica,sans-Serif" font-size="10.00">...&lt;title&gt;Mapped Tuple Types&lt;/title&gt;</text>
 <text text-anchor="start" x="767.38" y="-1721" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt;m...</text>
@@ -244,7 +244,7 @@
 <!-- blog/tagged&#45;parser&#45;combinators.html -->
 <g id="node6" class="node">
 <title>blog/tagged&#45;parser&#45;combinators.html</title>
-<g id="a_node6"><a xlink:href="blog/tagged-parser-combinators.html" xlink:title="...&lt;title&gt;Tagged Parser Combiniators&lt;/title...\l">
+<g id="a_node6"><a xlink:href="https://mighdoll-site-origami.netlify.app/blog/tagged-parser-combinators.html" xlink:title="...&lt;title&gt;Tagged Parser Combiniators&lt;/title...\l">
 <polygon fill="white" stroke="#b3b3b3" points="953.07,-1640 741.22,-1640 741.22,-1604 953.07,-1604 953.07,-1640"/>
 <text text-anchor="start" x="749.18" y="-1619" font-family="Helvetica,sans-Serif" font-size="10.00">...&lt;title&gt;Tagged Parser Combiniators&lt;/title...</text>
 </a>
@@ -260,7 +260,7 @@
 <!-- blog/modern&#45;typescript&#45;intersection.html -->
 <g id="node7" class="node">
 <title>blog/modern&#45;typescript&#45;intersection.html</title>
-<g id="a_node7"><a xlink:href="blog/modern-typescript-intersection.html" xlink:title="...&lt;title&gt;Modern Union To Intersection&lt;/tit...\l">
+<g id="a_node7"><a xlink:href="https://mighdoll-site-origami.netlify.app/blog/modern-typescript-intersection.html" xlink:title="...&lt;title&gt;Modern Union To Intersection&lt;/tit...\l">
 <polygon fill="white" stroke="#b3b3b3" points="951.19,-1532 743.1,-1532 743.1,-1496 951.19,-1496 951.19,-1532"/>
 <text text-anchor="start" x="751.12" y="-1511" font-family="Helvetica,sans-Serif" font-size="10.00">...&lt;title&gt;Modern Union To Intersection&lt;/tit...</text>
 </a>
@@ -276,7 +276,7 @@
 <!-- blog/typescript&#45;tricks&#45;combining&#45;records.html -->
 <g id="node8" class="node">
 <title>blog/typescript&#45;tricks&#45;combining&#45;records.html</title>
-<g id="a_node8"><a xlink:href="blog/typescript-tricks-combining-records.html" xlink:title="...&lt;title&gt;TypeScript Tricks for Combining R...\l">
+<g id="a_node8"><a xlink:href="https://mighdoll-site-origami.netlify.app/blog/typescript-tricks-combining-records.html" xlink:title="...&lt;title&gt;TypeScript Tricks for Combining R...\l">
 <polygon fill="white" stroke="#b3b3b3" points="953.32,-1424 740.97,-1424 740.97,-1388 953.32,-1388 953.32,-1424"/>
 <text text-anchor="start" x="749.06" y="-1403" font-family="Helvetica,sans-Serif" font-size="10.00">...&lt;title&gt;TypeScript Tricks for Combining R...</text>
 </a>
@@ -292,7 +292,7 @@
 <!-- blog/reactive&#45;webgpu.html -->
 <g id="node9" class="node">
 <title>blog/reactive&#45;webgpu.html</title>
-<g id="a_node9"><a xlink:href="blog/reactive-webgpu.html" xlink:title="...&lt;title&gt;Reactive WebGPU&lt;/title&gt;\l &lt;meta...\l">
+<g id="a_node9"><a xlink:href="https://mighdoll-site-origami.netlify.app/blog/reactive-webgpu.html" xlink:title="...&lt;title&gt;Reactive WebGPU&lt;/title&gt;\l &lt;meta...\l">
 <polygon fill="white" stroke="#b3b3b3" points="929.66,-1316 764.63,-1316 764.63,-1280 929.66,-1280 929.66,-1316"/>
 <text text-anchor="start" x="772.39" y="-1301" font-family="Helvetica,sans-Serif" font-size="10.00">...&lt;title&gt;Reactive WebGPU&lt;/title&gt;</text>
 <text text-anchor="start" x="772.39" y="-1289" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt;meta...</text>
@@ -309,7 +309,7 @@
 <!-- open&#45;graph/blog -->
 <g id="node12" class="node">
 <title>open&#45;graph/blog</title>
-<g id="a_node12"><a xlink:href="open-graph/blog">
+<g id="a_node12"><a xlink:href="https://mighdoll-site-origami.netlify.app/open-graph/blog">
 <ellipse fill="white" stroke="#666666" cx="847.15" cy="-1202" rx="5.5" ry="5.5"/>
 </a>
 </g>
@@ -324,7 +324,7 @@
 <!-- open&#45;graph/blog/infer&#45;type&#45;parameters.png -->
 <g id="node13" class="node">
 <title>open&#45;graph/blog/infer&#45;type&#45;parameters.png</title>
-<g id="a_node13"><a xlink:href="open-graph/blog/infer-type-parameters.png" xlink:title="[binary data]">
+<g id="a_node13"><a xlink:href="https://mighdoll-site-origami.netlify.app/open-graph/blog/infer-type-parameters.png" xlink:title="[binary data]">
 <polygon fill="white" stroke="#b3b3b3" points="1307.29,-1490 1236.22,-1490 1236.22,-1454 1307.29,-1454 1307.29,-1490"/>
 <text text-anchor="middle" x="1271.76" y="-1469" font-family="Helvetica,sans-Serif" font-size="10.00">[binary data]</text>
 </a>
@@ -340,7 +340,7 @@
 <!-- open&#45;graph/blog/mapped&#45;tuple&#45;types.png -->
 <g id="node14" class="node">
 <title>open&#45;graph/blog/mapped&#45;tuple&#45;types.png</title>
-<g id="a_node14"><a xlink:href="open-graph/blog/mapped-tuple-types.png" xlink:title="[binary data]">
+<g id="a_node14"><a xlink:href="https://mighdoll-site-origami.netlify.app/open-graph/blog/mapped-tuple-types.png" xlink:title="[binary data]">
 <polygon fill="white" stroke="#b3b3b3" points="1307.29,-1382 1236.22,-1382 1236.22,-1346 1307.29,-1346 1307.29,-1382"/>
 <text text-anchor="middle" x="1271.76" y="-1361" font-family="Helvetica,sans-Serif" font-size="10.00">[binary data]</text>
 </a>
@@ -356,7 +356,7 @@
 <!-- open&#45;graph/blog/tagged&#45;parser&#45;combinators.png -->
 <g id="node15" class="node">
 <title>open&#45;graph/blog/tagged&#45;parser&#45;combinators.png</title>
-<g id="a_node15"><a xlink:href="open-graph/blog/tagged-parser-combinators.png" xlink:title="[binary data]">
+<g id="a_node15"><a xlink:href="https://mighdoll-site-origami.netlify.app/open-graph/blog/tagged-parser-combinators.png" xlink:title="[binary data]">
 <polygon fill="white" stroke="#b3b3b3" points="1307.29,-1274 1236.22,-1274 1236.22,-1238 1307.29,-1238 1307.29,-1274"/>
 <text text-anchor="middle" x="1271.76" y="-1253" font-family="Helvetica,sans-Serif" font-size="10.00">[binary data]</text>
 </a>
@@ -372,7 +372,7 @@
 <!-- open&#45;graph/blog/modern&#45;typescript&#45;intersection.png -->
 <g id="node16" class="node">
 <title>open&#45;graph/blog/modern&#45;typescript&#45;intersection.png</title>
-<g id="a_node16"><a xlink:href="open-graph/blog/modern-typescript-intersection.png" xlink:title="[binary data]">
+<g id="a_node16"><a xlink:href="https://mighdoll-site-origami.netlify.app/open-graph/blog/modern-typescript-intersection.png" xlink:title="[binary data]">
 <polygon fill="white" stroke="#b3b3b3" points="1307.29,-1166 1236.22,-1166 1236.22,-1130 1307.29,-1130 1307.29,-1166"/>
 <text text-anchor="middle" x="1271.76" y="-1145" font-family="Helvetica,sans-Serif" font-size="10.00">[binary data]</text>
 </a>
@@ -388,7 +388,7 @@
 <!-- open&#45;graph/blog/typescript&#45;tricks&#45;combining&#45;records.png -->
 <g id="node17" class="node">
 <title>open&#45;graph/blog/typescript&#45;tricks&#45;combining&#45;records.png</title>
-<g id="a_node17"><a xlink:href="open-graph/blog/typescript-tricks-combining-records.png" xlink:title="[binary data]">
+<g id="a_node17"><a xlink:href="https://mighdoll-site-origami.netlify.app/open-graph/blog/typescript-tricks-combining-records.png" xlink:title="[binary data]">
 <polygon fill="white" stroke="#b3b3b3" points="1307.29,-1058 1236.22,-1058 1236.22,-1022 1307.29,-1022 1307.29,-1058"/>
 <text text-anchor="middle" x="1271.76" y="-1037" font-family="Helvetica,sans-Serif" font-size="10.00">[binary data]</text>
 </a>
@@ -404,7 +404,7 @@
 <!-- open&#45;graph/blog/reactive&#45;webgpu.png -->
 <g id="node18" class="node">
 <title>open&#45;graph/blog/reactive&#45;webgpu.png</title>
-<g id="a_node18"><a xlink:href="open-graph/blog/reactive-webgpu.png" xlink:title="[binary data]">
+<g id="a_node18"><a xlink:href="https://mighdoll-site-origami.netlify.app/open-graph/blog/reactive-webgpu.png" xlink:title="[binary data]">
 <polygon fill="white" stroke="#b3b3b3" points="1307.29,-950 1236.22,-950 1236.22,-914 1307.29,-914 1307.29,-950"/>
 <text text-anchor="middle" x="1271.76" y="-929" font-family="Helvetica,sans-Serif" font-size="10.00">[binary data]</text>
 </a>
@@ -420,7 +420,7 @@
 <!-- fonts/Inter&#45;VariableFont_slnt,wght.woff2 -->
 <g id="node21" class="node">
 <title>fonts/Inter&#45;VariableFont_slnt,wght.woff2</title>
-<g id="a_node21"><a xlink:href="fonts/Inter-VariableFont_slnt,wght.woff2" xlink:title="[binary data]">
+<g id="a_node21"><a xlink:href="https://mighdoll-site-origami.netlify.app/fonts/Inter-VariableFont_slnt,wght.woff2" xlink:title="[binary data]">
 <polygon fill="white" stroke="#b3b3b3" points="882.68,-1124 811.61,-1124 811.61,-1088 882.68,-1088 882.68,-1124"/>
 <text text-anchor="middle" x="847.15" y="-1103" font-family="Helvetica,sans-Serif" font-size="10.00">[binary data]</text>
 </a>
@@ -436,7 +436,7 @@
 <!-- fonts/Newsreader&#45;Latin.woff2 -->
 <g id="node22" class="node">
 <title>fonts/Newsreader&#45;Latin.woff2</title>
-<g id="a_node22"><a xlink:href="fonts/Newsreader-Latin.woff2" xlink:title="[binary data]">
+<g id="a_node22"><a xlink:href="https://mighdoll-site-origami.netlify.app/fonts/Newsreader-Latin.woff2" xlink:title="[binary data]">
 <polygon fill="white" stroke="#b3b3b3" points="882.68,-1016 811.61,-1016 811.61,-980 882.68,-980 882.68,-1016"/>
 <text text-anchor="middle" x="847.15" y="-995" font-family="Helvetica,sans-Serif" font-size="10.00">[binary data]</text>
 </a>
@@ -452,7 +452,7 @@
 <!-- fonts/Newsreader&#45;VariableFont_opsz,wght.woff2 -->
 <g id="node23" class="node">
 <title>fonts/Newsreader&#45;VariableFont_opsz,wght.woff2</title>
-<g id="a_node23"><a xlink:href="fonts/Newsreader-VariableFont_opsz,wght.woff2" xlink:title="[binary data]">
+<g id="a_node23"><a xlink:href="https://mighdoll-site-origami.netlify.app/fonts/Newsreader-VariableFont_opsz,wght.woff2" xlink:title="[binary data]">
 <polygon fill="white" stroke="#b3b3b3" points="882.68,-908 811.61,-908 811.61,-872 882.68,-872 882.68,-908"/>
 <text text-anchor="middle" x="847.15" y="-887" font-family="Helvetica,sans-Serif" font-size="10.00">[binary data]</text>
 </a>
@@ -468,7 +468,7 @@
 <!-- images/blog&#45;modern&#45;intersection.png -->
 <g id="node25" class="node">
 <title>images/blog&#45;modern&#45;intersection.png</title>
-<g id="a_node25"><a xlink:href="images/blog-modern-intersection.png" xlink:title="[binary data]">
+<g id="a_node25"><a xlink:href="https://mighdoll-site-origami.netlify.app/images/blog-modern-intersection.png" xlink:title="[binary data]">
 <polygon fill="white" stroke="#b3b3b3" points="882.68,-800 811.61,-800 811.61,-764 882.68,-764 882.68,-800"/>
 <text text-anchor="middle" x="847.15" y="-779" font-family="Helvetica,sans-Serif" font-size="10.00">[binary data]</text>
 </a>
@@ -484,7 +484,7 @@
 <!-- images/blog&#45;reactivity&#45;webgpu.png -->
 <g id="node26" class="node">
 <title>images/blog&#45;reactivity&#45;webgpu.png</title>
-<g id="a_node26"><a xlink:href="images/blog-reactivity-webgpu.png" xlink:title="[binary data]">
+<g id="a_node26"><a xlink:href="https://mighdoll-site-origami.netlify.app/images/blog-reactivity-webgpu.png" xlink:title="[binary data]">
 <polygon fill="white" stroke="#b3b3b3" points="882.68,-692 811.61,-692 811.61,-656 882.68,-656 882.68,-692"/>
 <text text-anchor="middle" x="847.15" y="-671" font-family="Helvetica,sans-Serif" font-size="10.00">[binary data]</text>
 </a>
@@ -500,7 +500,7 @@
 <!-- images/blog&#45;records&#45;cropped.png -->
 <g id="node27" class="node">
 <title>images/blog&#45;records&#45;cropped.png</title>
-<g id="a_node27"><a xlink:href="images/blog-records-cropped.png" xlink:title="[binary data]">
+<g id="a_node27"><a xlink:href="https://mighdoll-site-origami.netlify.app/images/blog-records-cropped.png" xlink:title="[binary data]">
 <polygon fill="white" stroke="#b3b3b3" points="882.68,-584 811.61,-584 811.61,-548 882.68,-548 882.68,-584"/>
 <text text-anchor="middle" x="847.15" y="-563" font-family="Helvetica,sans-Serif" font-size="10.00">[binary data]</text>
 </a>
@@ -516,7 +516,7 @@
 <!-- styles/diagram.css -->
 <g id="node31" class="node">
 <title>styles/diagram.css</title>
-<g id="a_node31"><a xlink:href="styles/diagram.css" xlink:title=".diagram {\l font&#45;family: var(&#45;&#45;code&#45;fon...\l">
+<g id="a_node31"><a xlink:href="https://mighdoll-site-origami.netlify.app/styles/diagram.css" xlink:title=".diagram {\l font&#45;family: var(&#45;&#45;code&#45;fon...\l">
 <polygon fill="white" stroke="#b3b3b3" points="917.74,-476 776.55,-476 776.55,-440 917.74,-440 917.74,-476"/>
 <text text-anchor="start" x="784.35" y="-461" font-family="Helvetica,sans-Serif" font-size="10.00">.diagram {</text>
 <text text-anchor="start" x="784.35" y="-449" font-family="Helvetica,sans-Serif" font-size="10.00"> font&#45;family: var(&#45;&#45;code&#45;fon...</text>
@@ -533,7 +533,7 @@
 <!-- styles/global.css -->
 <g id="node32" class="node">
 <title>styles/global.css</title>
-<g id="a_node32"><a xlink:href="styles/global.css" xlink:title=":root {\l &#45;&#45;side&#45;margin: calc(15vw);\l &#45;...\l">
+<g id="a_node32"><a xlink:href="https://mighdoll-site-origami.netlify.app/styles/global.css" xlink:title=":root {\l &#45;&#45;side&#45;margin: calc(15vw);\l &#45;...\l">
 <polygon fill="white" stroke="#b3b3b3" points="913.95,-368 780.34,-368 780.34,-324 913.95,-324 913.95,-368"/>
 <text text-anchor="start" x="788.24" y="-355" font-family="Helvetica,sans-Serif" font-size="10.00">:root {</text>
 <text text-anchor="start" x="788.24" y="-343" font-family="Helvetica,sans-Serif" font-size="10.00"> &#45;&#45;side&#45;margin: calc(15vw);</text>
@@ -551,7 +551,7 @@
 <!-- styles/titled.css -->
 <g id="node33" class="node">
 <title>styles/titled.css</title>
-<g id="a_node33"><a xlink:href="styles/titled.css" xlink:title=".title {\l font&#45;family: var(&#45;&#45;serif&#45;font...\l">
+<g id="a_node33"><a xlink:href="https://mighdoll-site-origami.netlify.app/styles/titled.css" xlink:title=".title {\l font&#45;family: var(&#45;&#45;serif&#45;font...\l">
 <polygon fill="white" stroke="#b3b3b3" points="917.72,-252 776.57,-252 776.57,-216 917.72,-216 917.72,-252"/>
 <text text-anchor="start" x="784.36" y="-237" font-family="Helvetica,sans-Serif" font-size="10.00">.title {</text>
 <text text-anchor="start" x="784.36" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00"> font&#45;family: var(&#45;&#45;serif&#45;font...</text>
@@ -568,7 +568,7 @@
 <!-- svg/dark_mode_24dp_FILL0_wght500_GRAD0_opsz24.svg -->
 <g id="node35" class="node">
 <title>svg/dark_mode_24dp_FILL0_wght500_GRAD0_opsz24.svg</title>
-<g id="a_node35"><a xlink:href="svg/dark_mode_24dp_FILL0_wght500_GRAD0_opsz24.svg" xlink:title="&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; ...\l">
+<g id="a_node35"><a xlink:href="https://mighdoll-site-origami.netlify.app/svg/dark_mode_24dp_FILL0_wght500_GRAD0_opsz24.svg" xlink:title="&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; ...\l">
 <polygon fill="white" stroke="#b3b3b3" points="953.83,-144 740.46,-144 740.46,-108 953.83,-108 953.83,-144"/>
 <text text-anchor="start" x="748.55" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; ...</text>
 </a>
@@ -584,7 +584,7 @@
 <!-- svg/light_mode_24dp_FILL0_wght500_GRAD0_opsz24.svg -->
 <g id="node36" class="node">
 <title>svg/light_mode_24dp_FILL0_wght500_GRAD0_opsz24.svg</title>
-<g id="a_node36"><a xlink:href="svg/light_mode_24dp_FILL0_wght500_GRAD0_opsz24.svg" xlink:title="&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; ...\l">
+<g id="a_node36"><a xlink:href="https://mighdoll-site-origami.netlify.app/svg/light_mode_24dp_FILL0_wght500_GRAD0_opsz24.svg" xlink:title="&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; ...\l">
 <polygon fill="white" stroke="#b3b3b3" points="953.83,-36 740.46,-36 740.46,0 953.83,0 953.83,-36"/>
 <text text-anchor="start" x="748.55" y="-15" font-family="Helvetica,sans-Serif" font-size="10.00">&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; ...</text>
 </a>
