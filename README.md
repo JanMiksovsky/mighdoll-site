@@ -4,7 +4,7 @@ One thesis of the Origami project is that the web is missing an accepted convent
 
 Among other things, this leads to an ecosystem of hundreds of static site generators (SSGs), all of which handle the same basic task of generating a folder of website resources in different ways. This places a substantial learning curve on anyone trying to adopt a new SSG. It also means that code written for one SSG is generally entangled with that SSG's idiosyncrasies and so cannot be immediately reused in the context of another.
 
-The basic exploration here is: how simple can we keep all the steps of generating a blog?
+The basic exploration here is: how simple can we make all the steps of generating a blog?
 
 ## Site representation
 
