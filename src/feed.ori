@@ -1,10 +1,10 @@
 // The posts in JSON Feed format
-{
+(posts) => {
   title: "mighdoll blog",
   description: "blog posts from mighdoll.dev",
   feed_url: `${ siteInfo.yaml/url }/feed.json`
   home_page_url: siteInfo.yaml/url
-  items: @values(@map(postData.ori, (post, slug) => {
+  items: @values(@map(posts, (post, slug) => {
     title: post/title
     description: post/description
     date_published: post/pubDate

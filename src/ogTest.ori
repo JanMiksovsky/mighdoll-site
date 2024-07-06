@@ -6,6 +6,6 @@
 // ```
 
 {
-  bgImage: public/blog-reactivity-webgpu.png/
+  bgImage: public/images/blog-reactivity-webgpu.png/
   title: "This is a test"
 }

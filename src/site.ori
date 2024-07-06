@@ -4,7 +4,7 @@
     // Blog index page
     index.html = blogIndex.ori(postData.ori)
 
-    // Map post data to HTML using the post.ori template
+    // Map post data to HTML using the post.ori template, then fold those in
     ...@map(postData.ori, { extension: "->html", value: post.ori })
   }
 
@@ -27,5 +27,5 @@
   ...public
 
   // RSS feed
-  rss.xml = @rss(feed.ori)
+  rss.xml = @rss(feed.ori(postData.ori))
 }

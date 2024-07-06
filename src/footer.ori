@@ -1,4 +1,5 @@
 // The footer for all pages
+// Since this doesn't depend on any input, this evaluates to a simple string.
 `<footer>
   <span
     >&copy; ${ new:@js/Date()/getFullYear() } Mighdoll. &nbsp;All rights reserved.
